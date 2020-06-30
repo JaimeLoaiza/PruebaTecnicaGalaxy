@@ -1,0 +1,54 @@
+﻿@Model Respuesta<PruebaTecnicaGalaxy.Models.Trabajador.Contrato.Respuesta.Contrato></PruebaTecnicaGalaxy.Models.Trabajador.Contrato.Respuesta.Contrato>
+    @{
+        ViewBag.Title = "Información";
+    }
+
+    <h2>@ViewBag.Title</h2>
+<div class="row">
+    <div class="col-md-12">
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Tipo de Identificación</th>
+                <th>Numero de Identificación</th>
+                <th>Primer Nombre</th>
+                <th>Segundo Nombre</th>
+                <th>Primer Apellido</th>
+                <th>Segundo Apellido</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Nombre de Entidad</th>
+                <th>Numero de Contrato</th>
+                <th>Trabajador Vinculado</th>
+                <th>Fecha de Inicio</th>
+                <th>Fecha de Finalización</th>
+            </tr>
+            @foreach (var oElemento in Model)
+            {
+                <tr>
+                    <td>@oElemento.Id</td>
+                    <td>@oElemento.Tipo_Identificacion</td>
+                    <td>@oElemento.Numero_Identificacion</td>
+                    <td>@oElemento.Primer_Nombre</td>
+                    <td>@oElemento.Segundo_Nombre</td>
+                    <td>@oElemento.Primer_Apellido</td>
+                    <td>@oElemento.Segundo_Apellido</td>
+                    <td>@oElemento.Fecha_Nacimiento</td>
+                    <td>@oElemento.Edad</td>
+                </tr>
+                <tr>
+                    <td>@oElemento.Id</td>
+                    <td>@oElemento.Nombre_entidad</td>
+                    <td>@oElemento.Numero_contrato</td>
+                    <td>@oElemento.Trabajador_vinculado</td>
+                    <td>@oElemento.Fecha_inicio</td>
+                    <td>@oElemento.Fecha_finalizacion</td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+

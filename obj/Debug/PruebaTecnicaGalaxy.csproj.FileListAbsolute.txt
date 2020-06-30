@@ -115,3 +115,6 @@ C:\Users\Familia Loaiza\source\repos\PruebaTecnicaGalaxy\bin\System.Buffers.xml
 C:\Users\Familia Loaiza\source\repos\PruebaTecnicaGalaxy\bin\System.Memory.xml
 C:\Users\Familia Loaiza\source\repos\PruebaTecnicaGalaxy\bin\System.Numerics.Vectors.xml
 C:\Users\Familia Loaiza\source\repos\PruebaTecnicaGalaxy\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Familia Loaiza\source\repos\PruebaTecnicaGalaxy\PruebaTecnicaGalaxy\obj\Debug\PruebaTecnicaGalaxy.csprojAssemblyReference.cache
+C:\Users\Familia Loaiza\source\repos\PruebaTecnicaGalaxy\PruebaTecnicaGalaxy\obj\Debug\PruebaTecnicaGalaxy.dll
+C:\Users\Familia Loaiza\source\repos\PruebaTecnicaGalaxy\PruebaTecnicaGalaxy\obj\Debug\PruebaTecnicaGalaxy.pdb
